@@ -13,7 +13,7 @@ namespace solution {
 
     class Container {
         public:
-            // 逆数なので昇順に持ちたい
+            // 昇順に持つ
             std::map<double, Solution> map;
 
             // O(log n)
